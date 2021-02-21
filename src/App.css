@@ -2,17 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-link{
+  text-decoration: none;
+  color:#5a5858;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-link:hover{
+  color: white;
+  background-color: #4250eb;
+  border-radius: 5px;
 }
-
+.page-link:focus{
+  color: white;
+  background-color: #4250eb;
+  border-radius: 5px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
